@@ -1,0 +1,15 @@
+version: '2'
+services:
+  db:
+    image: mongo:3
+    ports:
+      - "27017:27017"
+  api-server:
+    build: .
+    ports:
+      - "8080:8080"
+    container_name: ra-apigateway-example
+    network_mode: "host"
+    volumes:
+      - .:/www
+      - /www/node_modules

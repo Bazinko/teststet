@@ -1,0 +1,8 @@
+.idea
+node_modules/
+.vscode
+.DS_Store
+gcp-key.json
+npm-debug.log
+dist/
+pouchdb-6.4.3.min.js

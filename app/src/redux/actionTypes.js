@@ -1,0 +1,7 @@
+export const SIGN_IN = 'socket/SIGN_IN'
+export const SIGN_OUT = 'SIGN_OUT'
+export const SNACK = 'SNACK'
+export const RESET_STATE = 'SessionState/RESET'
+export const INITIALIZE_STATE = 'SessionState/INITIALIZE'
+export const SESSION_STATE = 'SESSION_STATE'
+export const RESET_CONNECTION = 'SessionState/RESET_CONNECTION'
